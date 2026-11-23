@@ -1,0 +1,12 @@
+# Obsidian per-device state
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+# PDFs stay in Zotero, not in git
+*.pdf
+inbox/*.pdf
+# Claude Code local settings
+.claude/settings.local.json
+__pycache__/
+.DS_Store

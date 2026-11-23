@@ -1,0 +1,17 @@
+/* Provenance callouts: who said it? */
+.callout[data-callout="paper"] {      /* From the paper */
+  --callout-color: 46, 160, 67;
+  --callout-icon: lucide-file-text;
+}
+.callout[data-callout="ai"] {         /* AI summary / interpretation */
+  --callout-color: 230, 140, 20;
+  --callout-icon: lucide-bot;
+}
+.callout[data-callout="idea"] {       /* My own idea */
+  --callout-color: 130, 80, 220;
+  --callout-icon: lucide-lightbulb;
+}
+.callout[data-callout="unverified"] { /* No checked source */
+  --callout-color: 220, 50, 50;
+  --callout-icon: lucide-alert-triangle;
+}

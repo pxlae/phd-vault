@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/meta.py:*)",
+      "Bash(python3 scripts/check_vault.py:*)"
+    ],
+    "deny": [
+      "Edit(zotero/**)",
+      "Write(zotero/**)"
+    ]
+  }
+}
